@@ -131,6 +131,9 @@
     .toast.show {
       display: block;
     }
+    #consent{
+
+    }
   </style>
 </head>
 <body>
@@ -185,10 +188,10 @@
       </div>
 
       <!-- Consent -->
-      <div>
+      <div style="display: flex; align-items: center;" >
+        <input type="checkbox" id="consent" style="width: 15px;margin-right: 20px;">
         <label>
-          <input type="checkbox" id="consent">
-          I consent to being contacted by the team
+          <span>I consent to being contacted by the team</span>
         </label>
         <p class="error" id="consent-error"></p>
       </div>
